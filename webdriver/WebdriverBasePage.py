@@ -276,5 +276,21 @@ class WebdriverBasePage(object):
             if(page_state == 'complete'):
                 break;
 
+    def getElementList(self, byelement, byindentifier):
+        elementtextlist =[]
+        try:
+            self.elementWaitCondition(byelement, byindentifier)
+            elementlist = self.driver.find_elements(by=byelement, value=byindentifier)
+            LoggerClass.writeFile(self.filepath,
+                                  "\nClick to " + byindentifier)
+            for ele in elementlist:
+                elementtextlist.append(ele.text)
+
+            return elementtextlist
+        except WebDriverException as e:
+            LoggerClass.writeFile(self.filepath, "\n" + e.msg)
+            raise e
+
+
 
 

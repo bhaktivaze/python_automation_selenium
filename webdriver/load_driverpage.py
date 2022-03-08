@@ -14,27 +14,12 @@ class LoadDriver(object):
 
     def setupOptionBrowserMethod(self, argument, ini_location="\\drivers\\"):
         finalorg = argument.lower()
-        self.driver_folderpath =ini_location
+        self.driver_folderpath = ini_location
         file_directory = os.path.dirname(os.path.abspath(__file__))
         self.parent_directory = os.path.dirname(file_directory) + self.driver_folderpath
-        if finalorg == 'chrome':
-            argumentOption = 1
-        elif finalorg == 'edge':
-            argumentOption = 2
-        elif finalorg == 'firefox':
-            argumentOption = 3
-        elif finalorg == 'edgechromium':
-            argumentOption = 4
-        else:
-            argumentOption = 0
-        switcher = {
-            1: self.chrome,
-            2: self.edge,
-            3: self.firefox,
-            4: self.edgechromium
-        }
-        fun = switcher.get(argumentOption, lambda: "Invalid Option")
-        return fun()
+        print(self.parent_directory)
+        driver = self.chrome()
+        return driver
 
     def chrome(self):
         # driverobject = webdriver.Chrome(executable_path= self.parent_directory +"\\chromedriver.exe");
@@ -43,12 +28,12 @@ class LoadDriver(object):
 
     def edge(self):
         # driverobject = webdriver.edge()
-        driverobject=webdriver.Edge(executable_path=EdgeChromiumDriverManager().install())
+        driverobject = webdriver.Edge(executable_path=EdgeChromiumDriverManager().install())
         return driverobject
 
     def firefox(self):
         # driverobject = webdriver.firefox()
-        driverobject= webdriver.Firefox(executable_path=GeckoDriverManager().install())
+        driverobject = webdriver.Firefox(executable_path=GeckoDriverManager().install())
         return driverobject
 
     def edgechromium(self):
@@ -57,5 +42,5 @@ class LoadDriver(object):
         options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 
         driverobject = webdriver.Edge(
-            executable_path=self.parent_directory +"\\msedgedriver.exe")
+            executable_path=self.parent_directory + "\\msedgedriver.exe")
         return driverobject

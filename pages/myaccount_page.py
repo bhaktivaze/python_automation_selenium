@@ -7,7 +7,7 @@ class MyAccountPage(BasePage):
     def __init__(self, x, filepath):
         self.driver = x
         self.filepath = filepath
-        self.locators = myaccount_page_locators.MyAccountPageLocator
+        self.locators = myaccount_page_locators.MyAccountPageLocator()
         super().__init__(x, filepath)
 
     def verifyMyAccountPage(self):
