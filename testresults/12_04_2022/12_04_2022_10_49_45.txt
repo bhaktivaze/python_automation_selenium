@@ -1,0 +1,33 @@
+Application details:https://www.saucedemo.com/
+------------------------------------------------------------------
+Test Case Name : test_inventory_sort_hilo
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Selected DropDown product_sort_containerAnd ValuePrice (high to low)Selected
+Click to //div[@class='inventory_item_price']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_add_to_cart
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_inventory_sort_atoz
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Selected DropDown product_sort_containerAnd ValueName (Z to A)Selected
+Click to //div[@class='inventory_item_price']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_navigate_Product_details
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to //a[@class='shopping_cart_link']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link

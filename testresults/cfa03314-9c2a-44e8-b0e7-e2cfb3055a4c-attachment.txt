@@ -1,0 +1,2 @@
+setting up test_remove_products
+Completing test casetest_remove_products

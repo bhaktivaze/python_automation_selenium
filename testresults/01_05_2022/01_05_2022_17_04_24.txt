@@ -1,0 +1,105 @@
+Application details:https://www.saucedemo.com/
+------------------------------------------------------------------
+Test Case Name : test_inventory_sort_hilo
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Selected DropDown product_sort_containerAnd ValuePrice (high to low)Selected
+Click to //div[@class='inventory_item_price']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_add_to_cart
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to //button[@id='remove-sauce-labs-onesie']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_inventory_sort_atoz
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Selected DropDown product_sort_containerAnd ValueName (Z to A)Selected
+Click to //div[@class='inventory_item_price']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_navigate_Product_details
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to //a[@class='shopping_cart_link']
+Click to //button[@id='remove-sauce-labs-onesie']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_navigate_Product_listing_from_product_details
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //a[@id='item_2_title_link']
+Click to //button[@id='back-to-products']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_navigate_Product_details_AddToCart_continue_shopping
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to //a[@class='shopping_cart_link']
+Click to //button[@id='continue-shopping']
+Click to //button[@id='remove-sauce-labs-onesie']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_add_more_products_to_cart
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to //a[@class='shopping_cart_link']
+Click to //button[@id='remove-sauce-labs-onesie']
+Click to //button[@id='continue-shopping']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_remove_products
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to //a[@class='shopping_cart_link']
+Click to //button[@id='remove-sauce-labs-onesie']
+Click to //button[@id='continue-shopping']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_checout_process
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to //a[@class='shopping_cart_link']
+Click to //button[@id='checkout']
+Click to //a[@class='shopping_cart_link']
+Click to //button[@id='remove-sauce-labs-onesie']
+Click to //button[@id='continue-shopping']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_checout_process_personal_info
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to //a[@class='shopping_cart_link']
+Click to //button[@id='checkout']
+Enter value : //input[@id='first-name'] value :Bhakti
+Enter value : //input[@id='last-name'] value :Agashe
+Enter value : //input[@id='postal-code'] value :411045
+element is not present
+Test Case Failedelement is not present
+------------------------------------------------------------------
+Test Case Name : test_checout_page_to_product_Page
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)

@@ -1,0 +1,12 @@
+Application details:https://www.saucedemo.com/
+------------------------------------------------------------------
+Test Case Name : test_login_swag
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to react-burger-menu-btn
+Click to logout_sidebar_link
+Test Case Name : test_login_swag_user_lockout
+Enter value : user-name value :locked_out_user
+Enter value : password value :secret_sauce
+Click to login-button

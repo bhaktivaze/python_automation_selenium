@@ -1,0 +1,5 @@
+[32mINFO    [0m WDM:logger.py:24 Current google-chrome version is 100.0.4896
+[32mINFO    [0m WDM:logger.py:14 Get LATEST driver version for 100.0.4896
+[32mINFO    [0m WDM:logger.py:14 Get LATEST driver version for 100.0.4896
+[32mINFO    [0m WDM:logger.py:14 Trying to download new driver from http://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
+[32mINFO    [0m WDM:logger.py:14 Driver has been saved in cache [C:\Users\QN237GK\.wdm\drivers\chromedriver\win32\100.0.4896.60]

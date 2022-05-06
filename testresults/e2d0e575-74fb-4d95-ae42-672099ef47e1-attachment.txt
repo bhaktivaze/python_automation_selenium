@@ -1,0 +1,5 @@
+[WDM] - Current google-chrome version is 99.0.4844
+[WDM] - Get LATEST driver version for 99.0.4844
+[WDM] - Get LATEST driver version for 99.0.4844
+[WDM] - Trying to download new driver from http://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+[WDM] - Driver has been saved in cache [C:\Users\QN237GK\.wdm\drivers\chromedriver\win32\99.0.4844.51]

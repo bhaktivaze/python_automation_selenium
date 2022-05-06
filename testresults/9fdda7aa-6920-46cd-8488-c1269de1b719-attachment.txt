@@ -1,0 +1,2 @@
+setting up test_navigate_Product_details_AddToCart_continue_shopping
+Completing test casetest_navigate_Product_details_AddToCart_continue_shopping

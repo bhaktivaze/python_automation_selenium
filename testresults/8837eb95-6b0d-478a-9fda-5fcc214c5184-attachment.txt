@@ -1,0 +1,6 @@
+setting up test_inventory_sort_hilo
+C:\Python_UI_Automation\drivers\
+ 
+['$49.99', '$29.99', '$15.99', '$15.99', '$9.99', '$7.99']
+[49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+Completing test casetest_inventory_sort_hilo
