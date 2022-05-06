@@ -1,0 +1,30 @@
+Application details:https://www.saucedemo.com/
+------------------------------------------------------------------
+Test Case Name : test_inventory_sort_hilo
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Test Case Name : test_add_to_cart
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Test Case Name : test_inventory_sort_atoz
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Test Case Name : test_navigate_Product_details
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Test Case Name : test_navigate_Product_listing_from_product_details
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Test Case Name : test_navigate_Product_details_AddToCart_continue_shopping
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Test Case Name : test_add_more_products_to_cart
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button

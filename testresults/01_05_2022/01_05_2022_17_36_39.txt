@@ -1,0 +1,11 @@
+Application details:https://www.saucedemo.com/
+------------------------------------------------------------------
+Test Case Name : test_Navigate_your_cart
+Enter value : user-name value :standard_user
+Enter value : password value :secret_sauce
+Click to login-button
+Click to //button[@id='add-to-cart-sauce-labs-onesie']
+Click to //a[@class='shopping_cart_link']
+Click to //button[@id='remove-sauce-labs-onesie']
+Click to react-burger-menu-btn
+Click to logout_sidebar_link

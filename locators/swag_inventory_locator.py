@@ -2,9 +2,25 @@ from locators.base_page_locators import BasePageLocator
 
 
 class SwagInventoryPage(BasePageLocator):
-    XPATH_PRODUCTS = "//span[text()='Products']"
+    PRODUCTS = "//span[text()='Products']"
     MAIN_MENU = "react-burger-menu-btn"
     LOGOUT_LINK = "logout_sidebar_link"
     CLASS_INVENTORY_FILTER_SELECT = "product_sort_container"
     CLASS_INVENTORY_PIRCE_OF_ITEMS = "//div[@class='inventory_item_price']"
-
+    ADD_TO_CART_LINK = "//button[@id='add-to-cart-sauce-labs-onesie']"
+    ADD_TO_CART_LINK_JACKET = "//button[@id='add-to-cart-sauce-labs-fleece-jacket']"
+    CART_Link = "//a[@class='shopping_cart_link']"
+    YOUR_CART = "//span[text()='Your Cart']"
+    REMOVE_BUTTON = "//button[@id='remove-sauce-labs-onesie']"
+    PRODUCT_LINK = "//a[@id='item_2_title_link']"
+    BACK_TO_PRODUCT = "//button[@id='back-to-products']"
+    CONTINUE_SHOPPING = "//button[@id='continue-shopping']"
+    checkout = "//button[@id='checkout']"
+    ITEMS_IN_CART = "//span[@class='shopping_cart_badge']"
+    CHECKOUT_PAGE_VERIFICATION = "//span[text()='Checkout: Your Information']"
+    CHECKOUT_PAGE_FIRST_NAME = "//input[@id='first-name']"
+    CHECKOUT_PAGE_LAST_NAME = "//input[@id='last-name']"
+    CHECKOUT_PAGE_ZIP = "//input[@id='postal-code']"
+    continue_button = "//input[@id='continue']"
+    cancel_button = "//button[@id='cancel']"
+    all_items = "//a[text()='All Items']"

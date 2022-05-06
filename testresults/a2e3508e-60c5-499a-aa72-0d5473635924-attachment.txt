@@ -1,0 +1,2 @@
+setting up test_checout_process_personal_info
+Completing test casetest_checout_process_personal_info

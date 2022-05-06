@@ -27,7 +27,7 @@ requests==2.24.0
 selenium==3.141.0
 six==1.15.0
 toml==0.10.1
-typed-ast==1.4.1
+typed-ast==1.5.3
 urllib3==1.25.11
 webdriver-manager==3.2.2
 wrapt==1.12.1

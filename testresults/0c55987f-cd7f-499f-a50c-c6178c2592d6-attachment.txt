@@ -1,0 +1,2 @@
+setting up test_navigate_Product_details
+Completing test casetest_navigate_Product_details
